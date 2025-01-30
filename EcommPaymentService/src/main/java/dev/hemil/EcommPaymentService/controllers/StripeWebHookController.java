@@ -5,5 +5,5 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/stripeWebhook")
-public class StripeWebhookController {
+public class StripeWebHookController {
 }

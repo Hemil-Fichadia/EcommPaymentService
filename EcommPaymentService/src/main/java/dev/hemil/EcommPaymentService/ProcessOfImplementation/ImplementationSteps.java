@@ -99,6 +99,17 @@ public class ImplementationSteps {
     Here we are integrating the razorpay's web integration, and this can be understood
     by visiting and surfing around the web documentation as we are integrating it
     in our java based pure backend project, our target integration starts from
-    installing Java based razorpay SDK from web-integration and
+    installing Java based razorpay SDK from web-integration and surf around the
+    dev-docs there comes a section of build integration from there take the section
+    of JSONObject and that will be our E-commerce service's payment request.
+
+    Now there are two controllers one is PaymentController which is our native
+    project's PaymentController and other two are WebHook controllers of third
+    party payment service providers and here the logic of third party payment
+    partner's UI redirection from where it is supposed to take care for further
+    processing like accepting card details, confirming card details, generating
+    OTP confirming OTP and then payment success/failure response.
+
+    -------------------___________
     */
 }
